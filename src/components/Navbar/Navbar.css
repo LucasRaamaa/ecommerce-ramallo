@@ -1,0 +1,16 @@
+.navbar{
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: baseline;
+}
+
+.boton{
+    color: blue;
+    display: flex;
+    height: fit-content;
+    /* flex-direction: column; */
+    margin: 2px auto;
+    margin-top: 18px;
+    padding: 10px 5px;
+    text-align: center;
+}
