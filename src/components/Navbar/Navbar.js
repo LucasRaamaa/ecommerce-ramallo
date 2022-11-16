@@ -3,9 +3,10 @@ import './Navbar.css';
 const Navbar = () => {
     return (
         <nav className='navbar'>
-            <h1 style={{ color: 'red'}}>MyNav</h1>
-            <button className='boton'>boton1</button>
-            <button className='boton'>boton2</button>
+            <h1 style={{ color: 'red'}}>Skate Sitges</h1>
+            <button className='boton'>Zapatillas</button>
+            <button className='boton'>Remeras</button>
+            <button className='boton'>Gorras</button>
         </nav>
 
     )
