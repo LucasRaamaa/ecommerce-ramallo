@@ -1,12 +1,16 @@
 import './Navbar.css';
+import CartWidget from '../CartWidget/CartWidget.js';
+
 
 const Navbar = () => {
     return (
         <nav className='navbar'>
-            <h1 style={{ color: 'red'}}>Skate Sitges</h1>
-            <button className='boton'>Zapatillas</button>
-            <button className='boton'>Remeras</button>
-            <button className='boton'>Gorras</button>
+            <img className = 'logoImg' src = {'../imagenes/logo.jpg'} alt = 'logo-skt' />
+            <h1 className = 'tittle'>Skate Store</h1>
+            <button className='boton'>Inicio</button>
+            <button className='boton'>Tienda</button>
+            <button className='boton'>Contacto</button>
+            <CartWidget />
         </nav>
 
     )
